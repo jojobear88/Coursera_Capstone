@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_6e1ab6d0eec54e7a98d66cd0f971e492 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6e1ab6d0eec54e7a98d66cd0f971e492" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_6e1ab6d0eec54e7a98d66cd0f971e492 = L.map(
+                                  'map_6e1ab6d0eec54e7a98d66cd0f971e492',
+                                  {center: [21.0294498,105.8544441],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d62dfee4944a4598b931fa464176f426 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+        
+    
+            var circle_marker_041bf6583e0c497ea26142a38eb82920 = L.circleMarker(
+                [21.022010000000023,105.81934000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_17abfac1f9fd4eefb8a73a323cbc1bab = L.popup({maxWidth: '300'});
+
+            
+                var html_4a00efe35a5e4067bddb20261f9f085c = $('<div id="html_4a00efe35a5e4067bddb20261f9f085c" style="width: 100.0%; height: 100.0%;">Ba Đình</div>')[0];
+                popup_17abfac1f9fd4eefb8a73a323cbc1bab.setContent(html_4a00efe35a5e4067bddb20261f9f085c);
+            
+
+            circle_marker_041bf6583e0c497ea26142a38eb82920.bindPopup(popup_17abfac1f9fd4eefb8a73a323cbc1bab);
+
+            
+        
+    
+            var circle_marker_c310637611e543c7909ce5a3c405f44c = L.circleMarker(
+                [21.083330000000046,105.38333000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_915a3eee94bf4bc2a8e8b680fcf247b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_c693bc0dd7524971a95b80e884bd1921 = $('<div id="html_c693bc0dd7524971a95b80e884bd1921" style="width: 100.0%; height: 100.0%;">Ba Vì</div>')[0];
+                popup_915a3eee94bf4bc2a8e8b680fcf247b6.setContent(html_c693bc0dd7524971a95b80e884bd1921);
+            
+
+            circle_marker_c310637611e543c7909ce5a3c405f44c.bindPopup(popup_915a3eee94bf4bc2a8e8b680fcf247b6);
+
+            
+        
+    
+            var circle_marker_1c6e189c44264c15bba220df1be0b887 = L.circleMarker(
+                [20.99831000000006,105.75457000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_eff138d3bfb3431ba01db1e6cfe66f1e = L.popup({maxWidth: '300'});
+
+            
+                var html_d3a1245d73c1424a88ccc7807a6596ed = $('<div id="html_d3a1245d73c1424a88ccc7807a6596ed" style="width: 100.0%; height: 100.0%;">Bắc Từ Liêm</div>')[0];
+                popup_eff138d3bfb3431ba01db1e6cfe66f1e.setContent(html_d3a1245d73c1424a88ccc7807a6596ed);
+            
+
+            circle_marker_1c6e189c44264c15bba220df1be0b887.bindPopup(popup_eff138d3bfb3431ba01db1e6cfe66f1e);
+
+            
+        
+    
+            var circle_marker_363da996cee14a44a6c4d2102d74f0e4 = L.circleMarker(
+                [21.035596667556106,105.80597932307698],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_17f399024d38410aa73a13eddd42025a = L.popup({maxWidth: '300'});
+
+            
+                var html_6be94d9999d54bd4b6e24cdf6c3e9b93 = $('<div id="html_6be94d9999d54bd4b6e24cdf6c3e9b93" style="width: 100.0%; height: 100.0%;">Cầu Giấy</div>')[0];
+                popup_17f399024d38410aa73a13eddd42025a.setContent(html_6be94d9999d54bd4b6e24cdf6c3e9b93);
+            
+
+            circle_marker_363da996cee14a44a6c4d2102d74f0e4.bindPopup(popup_17f399024d38410aa73a13eddd42025a);
+
+            
+        
+    
+            var circle_marker_31adb106fbd541c68b19080e65166d73 = L.circleMarker(
+                [21.029090000000053,105.82682000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_bc321cb46fc84f029d3def23bf246644 = L.popup({maxWidth: '300'});
+
+            
+                var html_1dc22cd617c14e178ad28535306350f3 = $('<div id="html_1dc22cd617c14e178ad28535306350f3" style="width: 100.0%; height: 100.0%;">Chương Mỹ</div>')[0];
+                popup_bc321cb46fc84f029d3def23bf246644.setContent(html_1dc22cd617c14e178ad28535306350f3);
+            
+
+            circle_marker_31adb106fbd541c68b19080e65166d73.bindPopup(popup_bc321cb46fc84f029d3def23bf246644);
+
+            
+        
+    
+            var circle_marker_a0ef2a51ca1549e482d8157b701418d7 = L.circleMarker(
+                [21.089800000000025,105.66401000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_07852d4c6bbd43c389e4e465b70fb4af = L.popup({maxWidth: '300'});
+
+            
+                var html_a3fbc6ce59594bf1abe8af162d3f3b2b = $('<div id="html_a3fbc6ce59594bf1abe8af162d3f3b2b" style="width: 100.0%; height: 100.0%;">Đan Phượng</div>')[0];
+                popup_07852d4c6bbd43c389e4e465b70fb4af.setContent(html_a3fbc6ce59594bf1abe8af162d3f3b2b);
+            
+
+            circle_marker_a0ef2a51ca1549e482d8157b701418d7.bindPopup(popup_07852d4c6bbd43c389e4e465b70fb4af);
+
+            
+        
+    
+            var circle_marker_070a01af93ad4318af9635cae75ee649 = L.circleMarker(
+                [21.072940000000074,105.78559000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_f3a82c6a009b4a71ba18b38e131369ad = L.popup({maxWidth: '300'});
+
+            
+                var html_e85526e3f872467a8f8ce8fa875c01df = $('<div id="html_e85526e3f872467a8f8ce8fa875c01df" style="width: 100.0%; height: 100.0%;">Đông Anh</div>')[0];
+                popup_f3a82c6a009b4a71ba18b38e131369ad.setContent(html_e85526e3f872467a8f8ce8fa875c01df);
+            
+
+            circle_marker_070a01af93ad4318af9635cae75ee649.bindPopup(popup_f3a82c6a009b4a71ba18b38e131369ad);
+
+            
+        
+    
+            var circle_marker_19dcfc6b37a94378a0f25aa83920a5db = L.circleMarker(
+                [20.99702961960129,105.88268682260897],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_b51f4e6ba6434d6b9f39b8ce6e1df2a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_37f885db14374d1f8a7f634d79f83845 = $('<div id="html_37f885db14374d1f8a7f634d79f83845" style="width: 100.0%; height: 100.0%;">Đống Đa</div>')[0];
+                popup_b51f4e6ba6434d6b9f39b8ce6e1df2a3.setContent(html_37f885db14374d1f8a7f634d79f83845);
+            
+
+            circle_marker_19dcfc6b37a94378a0f25aa83920a5db.bindPopup(popup_b51f4e6ba6434d6b9f39b8ce6e1df2a3);
+
+            
+        
+    
+            var circle_marker_7c7bdfdb9756467d85b36a370dc7c711 = L.circleMarker(
+                [21.0113810087877,105.91717007525097],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_d72a848f123c450ab035bd703901fd80 = L.popup({maxWidth: '300'});
+
+            
+                var html_90521a09a91941a3815e23650e603eba = $('<div id="html_90521a09a91941a3815e23650e603eba" style="width: 100.0%; height: 100.0%;">Gia Lâm</div>')[0];
+                popup_d72a848f123c450ab035bd703901fd80.setContent(html_90521a09a91941a3815e23650e603eba);
+            
+
+            circle_marker_7c7bdfdb9756467d85b36a370dc7c711.bindPopup(popup_d72a848f123c450ab035bd703901fd80);
+
+            
+        
+    
+            var circle_marker_0e86445098f246cf967fe7776d570a9f = L.circleMarker(
+                [20.97031000000004,105.78181000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_5dd426ada2f1466cb000e64adcf6662e = L.popup({maxWidth: '300'});
+
+            
+                var html_13687baaa5304c929b1338df67be8501 = $('<div id="html_13687baaa5304c929b1338df67be8501" style="width: 100.0%; height: 100.0%;">Hà Đông</div>')[0];
+                popup_5dd426ada2f1466cb000e64adcf6662e.setContent(html_13687baaa5304c929b1338df67be8501);
+            
+
+            circle_marker_0e86445098f246cf967fe7776d570a9f.bindPopup(popup_5dd426ada2f1466cb000e64adcf6662e);
+
+            
+        
+    
+            var circle_marker_2abb0e438797448f89dc8b4116794092 = L.circleMarker(
+                [21.155050000000074,105.73429000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_8a825cc275144b428e9ef1098c102490 = L.popup({maxWidth: '300'});
+
+            
+                var html_21aff3156bf946a6b1d70a8a1479e154 = $('<div id="html_21aff3156bf946a6b1d70a8a1479e154" style="width: 100.0%; height: 100.0%;">Hai Bà Trưng</div>')[0];
+                popup_8a825cc275144b428e9ef1098c102490.setContent(html_21aff3156bf946a6b1d70a8a1479e154);
+            
+
+            circle_marker_2abb0e438797448f89dc8b4116794092.bindPopup(popup_8a825cc275144b428e9ef1098c102490);
+
+            
+        
+    
+            var circle_marker_73583697bbc549bea601fc31ff8f101c = L.circleMarker(
+                [21.08627000000007,105.77028000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_f5b55e6952a34177bf13b261860762ca = L.popup({maxWidth: '300'});
+
+            
+                var html_77d3a0c3377440cbbc47a3b579d04567 = $('<div id="html_77d3a0c3377440cbbc47a3b579d04567" style="width: 100.0%; height: 100.0%;">Hoài Đức</div>')[0];
+                popup_f5b55e6952a34177bf13b261860762ca.setContent(html_77d3a0c3377440cbbc47a3b579d04567);
+            
+
+            circle_marker_73583697bbc549bea601fc31ff8f101c.bindPopup(popup_f5b55e6952a34177bf13b261860762ca);
+
+            
+        
+    
+            var circle_marker_827d38225b1d4372be109818817208d7 = L.circleMarker(
+                [21.07884000000007,105.81941000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_167ad26e5da34af4b4138ad4f0148dcb = L.popup({maxWidth: '300'});
+
+            
+                var html_1dda5f54813d4228bd49cdf2609c40fa = $('<div id="html_1dda5f54813d4228bd49cdf2609c40fa" style="width: 100.0%; height: 100.0%;">Hoàn Kiếm</div>')[0];
+                popup_167ad26e5da34af4b4138ad4f0148dcb.setContent(html_1dda5f54813d4228bd49cdf2609c40fa);
+            
+
+            circle_marker_827d38225b1d4372be109818817208d7.bindPopup(popup_167ad26e5da34af4b4138ad4f0148dcb);
+
+            
+        
+    
+            var circle_marker_5736715037684b4d8d4915269e4891bd = L.circleMarker(
+                [21.02843000000007,105.83206000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_558900d35b6843ccb95bdb1bff14d8b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_2359a3ca8dc04f53bd2c99e50e6cda75 = $('<div id="html_2359a3ca8dc04f53bd2c99e50e6cda75" style="width: 100.0%; height: 100.0%;">Hoàng Mai, Hanoi</div>')[0];
+                popup_558900d35b6843ccb95bdb1bff14d8b9.setContent(html_2359a3ca8dc04f53bd2c99e50e6cda75);
+            
+
+            circle_marker_5736715037684b4d8d4915269e4891bd.bindPopup(popup_558900d35b6843ccb95bdb1bff14d8b9);
+
+            
+        
+    
+            var circle_marker_41e69797bd034363829b3fa6f201e63e = L.circleMarker(
+                [21.043110522938534,105.86527602847573],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_0aeef92523a24207ab3512f9e83d4e77 = L.popup({maxWidth: '300'});
+
+            
+                var html_d754d88a07c94c32b1dd7cd2a5e2527e = $('<div id="html_d754d88a07c94c32b1dd7cd2a5e2527e" style="width: 100.0%; height: 100.0%;">Long Biên</div>')[0];
+                popup_0aeef92523a24207ab3512f9e83d4e77.setContent(html_d754d88a07c94c32b1dd7cd2a5e2527e);
+            
+
+            circle_marker_41e69797bd034363829b3fa6f201e63e.bindPopup(popup_0aeef92523a24207ab3512f9e83d4e77);
+
+            
+        
+    
+            var circle_marker_36aa0a1dc3764d8d9f859962dfaa0552 = L.circleMarker(
+                [20.973070000000064,105.77827000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_389bdd9af9dc49f08a92be43714ab37f = L.popup({maxWidth: '300'});
+
+            
+                var html_991a08ccb0574b7496ac8b6dfa78b646 = $('<div id="html_991a08ccb0574b7496ac8b6dfa78b646" style="width: 100.0%; height: 100.0%;">Mê Linh</div>')[0];
+                popup_389bdd9af9dc49f08a92be43714ab37f.setContent(html_991a08ccb0574b7496ac8b6dfa78b646);
+            
+
+            circle_marker_36aa0a1dc3764d8d9f859962dfaa0552.bindPopup(popup_389bdd9af9dc49f08a92be43714ab37f);
+
+            
+        
+    
+            var circle_marker_cb4b7eb7125b4b4c91314a9cfb15dcb6 = L.circleMarker(
+                [21.014580000000024,105.85160000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_9bd2688fbcf6448e8b969c26f9ed65d6 = L.popup({maxWidth: '300'});
+
+            
+                var html_c273f4601bca42e79ccc55efe1ea40b3 = $('<div id="html_c273f4601bca42e79ccc55efe1ea40b3" style="width: 100.0%; height: 100.0%;">Mỹ Đức</div>')[0];
+                popup_9bd2688fbcf6448e8b969c26f9ed65d6.setContent(html_c273f4601bca42e79ccc55efe1ea40b3);
+            
+
+            circle_marker_cb4b7eb7125b4b4c91314a9cfb15dcb6.bindPopup(popup_9bd2688fbcf6448e8b969c26f9ed65d6);
+
+            
+        
+    
+            var circle_marker_5e1cd735f1434a909b3f1d809b530801 = L.circleMarker(
+                [20.99831000000006,105.75457000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_8860acca60234a5989ff6a2d6247d7d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_03c0720e09e949dc95696cc1ebc87c3d = $('<div id="html_03c0720e09e949dc95696cc1ebc87c3d" style="width: 100.0%; height: 100.0%;">Nam Từ Liêm</div>')[0];
+                popup_8860acca60234a5989ff6a2d6247d7d0.setContent(html_03c0720e09e949dc95696cc1ebc87c3d);
+            
+
+            circle_marker_5e1cd735f1434a909b3f1d809b530801.bindPopup(popup_8860acca60234a5989ff6a2d6247d7d0);
+
+            
+        
+    
+            var circle_marker_674689899fb14c61b8c2918b2f8e984f = L.circleMarker(
+                [21.233560000000068,105.43031000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_cb5c00dcab9e44fda82fbfb8b050aef3 = L.popup({maxWidth: '300'});
+
+            
+                var html_e06fd914cc1843908cda13f2cda17059 = $('<div id="html_e06fd914cc1843908cda13f2cda17059" style="width: 100.0%; height: 100.0%;">Phú Xuyên</div>')[0];
+                popup_cb5c00dcab9e44fda82fbfb8b050aef3.setContent(html_e06fd914cc1843908cda13f2cda17059);
+            
+
+            circle_marker_674689899fb14c61b8c2918b2f8e984f.bindPopup(popup_cb5c00dcab9e44fda82fbfb8b050aef3);
+
+            
+        
+    
+            var circle_marker_2598fd88c4c44b35805bc0a9200bf83a = L.circleMarker(
+                [21.03227000000004,105.85244000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_e2f6380dbe074bf0b3346609b7c9983d = L.popup({maxWidth: '300'});
+
+            
+                var html_3401c6eb1ec34dbf9de7b1e9e13c3352 = $('<div id="html_3401c6eb1ec34dbf9de7b1e9e13c3352" style="width: 100.0%; height: 100.0%;">Phúc Thọ</div>')[0];
+                popup_e2f6380dbe074bf0b3346609b7c9983d.setContent(html_3401c6eb1ec34dbf9de7b1e9e13c3352);
+            
+
+            circle_marker_2598fd88c4c44b35805bc0a9200bf83a.bindPopup(popup_e2f6380dbe074bf0b3346609b7c9983d);
+
+            
+        
+    
+            var circle_marker_52ad2fbd1f514f38ac5213babacdc3bc = L.circleMarker(
+                [21.00334130793233,105.65226374280645],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_e104216c604742b1a86f707316f7b89a = L.popup({maxWidth: '300'});
+
+            
+                var html_a33909a8d26d4502841c305ff084c619 = $('<div id="html_a33909a8d26d4502841c305ff084c619" style="width: 100.0%; height: 100.0%;">Quốc Oai</div>')[0];
+                popup_e104216c604742b1a86f707316f7b89a.setContent(html_a33909a8d26d4502841c305ff084c619);
+            
+
+            circle_marker_52ad2fbd1f514f38ac5213babacdc3bc.bindPopup(popup_e104216c604742b1a86f707316f7b89a);
+
+            
+        
+    
+            var circle_marker_320656cd268d499e9f8c59889cfece89 = L.circleMarker(
+                [21.27515421204921,105.88907311722683],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_7c0e701880794e11873d56326eeb47d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb971ef34fc44ee284887afeaa5db70b = $('<div id="html_cb971ef34fc44ee284887afeaa5db70b" style="width: 100.0%; height: 100.0%;">Sóc Sơn</div>')[0];
+                popup_7c0e701880794e11873d56326eeb47d5.setContent(html_cb971ef34fc44ee284887afeaa5db70b);
+            
+
+            circle_marker_320656cd268d499e9f8c59889cfece89.bindPopup(popup_7c0e701880794e11873d56326eeb47d5);
+
+            
+        
+    
+            var circle_marker_c9f991afc2dd4ef9a573c9095a97d46f = L.circleMarker(
+                [21.032794055797336,105.83013917169016],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_bc3d42ac069f496faba13770a64c85bd = L.popup({maxWidth: '300'});
+
+            
+                var html_3f6af4e58c724572985ca9af0051faf4 = $('<div id="html_3f6af4e58c724572985ca9af0051faf4" style="width: 100.0%; height: 100.0%;">Sơn Tây, Hanoi</div>')[0];
+                popup_bc3d42ac069f496faba13770a64c85bd.setContent(html_3f6af4e58c724572985ca9af0051faf4);
+            
+
+            circle_marker_c9f991afc2dd4ef9a573c9095a97d46f.bindPopup(popup_bc3d42ac069f496faba13770a64c85bd);
+
+            
+        
+    
+            var circle_marker_b224ba011ba549d988cd0e03e183fef4 = L.circleMarker(
+                [21.066670000000045,105.83333000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_470094075e394189a2b1b78f7aebd86f = L.popup({maxWidth: '300'});
+
+            
+                var html_dbcebc6fc14a4413872bce7a31d0ea37 = $('<div id="html_dbcebc6fc14a4413872bce7a31d0ea37" style="width: 100.0%; height: 100.0%;">Tây Hồ</div>')[0];
+                popup_470094075e394189a2b1b78f7aebd86f.setContent(html_dbcebc6fc14a4413872bce7a31d0ea37);
+            
+
+            circle_marker_b224ba011ba549d988cd0e03e183fef4.bindPopup(popup_470094075e394189a2b1b78f7aebd86f);
+
+            
+        
+    
+            var circle_marker_e67381e3db7a4f0493b1d3a8a2ae5aaa = L.circleMarker(
+                [19.750000000000057,105.71667000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_7fb7dfecfcab4cd0b461cf1d07ab88c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_358ef6a8f3f1410bbb6995c7501ade6c = $('<div id="html_358ef6a8f3f1410bbb6995c7501ade6c" style="width: 100.0%; height: 100.0%;">Thạch Thất</div>')[0];
+                popup_7fb7dfecfcab4cd0b461cf1d07ab88c4.setContent(html_358ef6a8f3f1410bbb6995c7501ade6c);
+            
+
+            circle_marker_e67381e3db7a4f0493b1d3a8a2ae5aaa.bindPopup(popup_7fb7dfecfcab4cd0b461cf1d07ab88c4);
+
+            
+        
+    
+            var circle_marker_6c9525e9f45749b9a7f2aea25957e25b = L.circleMarker(
+                [20.866670000000056,105.75000000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_7316dbb73584468b9c68fd09a1665c8d = L.popup({maxWidth: '300'});
+
+            
+                var html_94c4c102bd3a4bb6b27ec582337d631f = $('<div id="html_94c4c102bd3a4bb6b27ec582337d631f" style="width: 100.0%; height: 100.0%;">Thanh Oai</div>')[0];
+                popup_7316dbb73584468b9c68fd09a1665c8d.setContent(html_94c4c102bd3a4bb6b27ec582337d631f);
+            
+
+            circle_marker_6c9525e9f45749b9a7f2aea25957e25b.bindPopup(popup_7316dbb73584468b9c68fd09a1665c8d);
+
+            
+        
+    
+            var circle_marker_25168f86e96b4bcfa65999b5217ebf02 = L.circleMarker(
+                [21.266670000000033,105.76667000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_e52ae7f122774dadb369b363e4a74a41 = L.popup({maxWidth: '300'});
+
+            
+                var html_faf897019732495cb6662d24a98c0fe8 = $('<div id="html_faf897019732495cb6662d24a98c0fe8" style="width: 100.0%; height: 100.0%;">Thanh Trì</div>')[0];
+                popup_e52ae7f122774dadb369b363e4a74a41.setContent(html_faf897019732495cb6662d24a98c0fe8);
+            
+
+            circle_marker_25168f86e96b4bcfa65999b5217ebf02.bindPopup(popup_e52ae7f122774dadb369b363e4a74a41);
+
+            
+        
+    
+            var circle_marker_98cfb865fc9340ed81a0c9ba77f9da1f = L.circleMarker(
+                [21.037600000000054,105.77507000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_728487d8d1b9446aa7b018133a77472d = L.popup({maxWidth: '300'});
+
+            
+                var html_428b6fa09a9c4e47b11f53a75c9842da = $('<div id="html_428b6fa09a9c4e47b11f53a75c9842da" style="width: 100.0%; height: 100.0%;">Thanh Xuân</div>')[0];
+                popup_728487d8d1b9446aa7b018133a77472d.setContent(html_428b6fa09a9c4e47b11f53a75c9842da);
+            
+
+            circle_marker_98cfb865fc9340ed81a0c9ba77f9da1f.bindPopup(popup_728487d8d1b9446aa7b018133a77472d);
+
+            
+        
+    
+            var circle_marker_0e16386d8fb341cdb8ecfd9433632780 = L.circleMarker(
+                [20.87026114105394,105.87977535757594],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_b224e911b0de4a48a13c483ba8f832ba = L.popup({maxWidth: '300'});
+
+            
+                var html_f17afc8b21c84446a8e7fa86c5ddb307 = $('<div id="html_f17afc8b21c84446a8e7fa86c5ddb307" style="width: 100.0%; height: 100.0%;">Thường Tín</div>')[0];
+                popup_b224e911b0de4a48a13c483ba8f832ba.setContent(html_f17afc8b21c84446a8e7fa86c5ddb307);
+            
+
+            circle_marker_0e16386d8fb341cdb8ecfd9433632780.bindPopup(popup_b224e911b0de4a48a13c483ba8f832ba);
+
+            
+        
+    
+            var circle_marker_3e652068e1bb4d4e981f650607c500f0 = L.circleMarker(
+                [20.883330000000058,105.73333000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6e1ab6d0eec54e7a98d66cd0f971e492);
+            
+    
+            var popup_5f7141e2b85e4769826654a1fbf35461 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4f3338ec2944cbf9b6fe4cb2adf017f = $('<div id="html_e4f3338ec2944cbf9b6fe4cb2adf017f" style="width: 100.0%; height: 100.0%;">Ứng Hòa</div>')[0];
+                popup_5f7141e2b85e4769826654a1fbf35461.setContent(html_e4f3338ec2944cbf9b6fe4cb2adf017f);
+            
+
+            circle_marker_3e652068e1bb4d4e981f650607c500f0.bindPopup(popup_5f7141e2b85e4769826654a1fbf35461);
+
+            
+        
+</script>
